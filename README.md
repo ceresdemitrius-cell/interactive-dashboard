@@ -4,8 +4,8 @@ This project is a web-based dashboard built for WEB-115 to demonstrate interacti
 
 TODO: Future Enhancements
 
-Add a metric conversion tool.
+[ ] Add a metric conversion tool.
 
-Integrate a task list with array storage.
+[ ] Integrate a task list with array storage.
 
-Add JavaScript logic for a live clock.
+[ ] Add JavaScript logic for a live clock.
