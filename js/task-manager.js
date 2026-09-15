@@ -8,7 +8,8 @@ function weeklyGoal(userName, dailyGoal, bonusTasks) {
     document.getElementById("goal-message").innerHTML = output;
 }
 
-document.getElementById("goal-btn").addEventListener("click", function(event) {
+// Run the weekly goal calculator when the form is submitted
+document.getElementById("goal-form").addEventListener("submit", function(event) {
     event.preventDefault();
 
     let userName = document.getElementById("user-name").value;
