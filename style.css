@@ -1,8 +1,24 @@
-body {
-    background-color: lightgray;
-    font-family: Arial, sans-serif;
+#weekly-tasks {
+    margin-top: 20px;
 }
 
-h1 {
-    text-align: center;
+#goal-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+#goal-form input {
+    padding: 8px;
+}
+
+#goal-btn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#goal-message {
+    margin-top: 15px;
+    font-weight: bold;
 }
