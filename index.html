@@ -51,6 +51,33 @@
             <p id="goal-message"></p>
 
             <script src="js/task-manager.js"></script>
+          </div>
+
+        <div class="col" id="metric-converter">
+            <h2>Imperial/Metric Converter</h2>
+
+            <form id="metric-form">
+                <label for="metric-value">Value:</label>
+                <input type="number" id="metric-value" step="any">
+
+                <label for="conversion-type">Conversion:</label>
+                <select id="conversion-type">
+                    <option value="inch to centimeter">Inch to Centimeter</option>
+                    <option value="foot to centimeter">Foot to Centimeter</option>
+                    <option value="yard to meter">Yard to Meter</option>
+                    <option value="mile to kilometer">Mile to Kilometer</option>
+                    <option value="centimeter to inch">Centimeter to Inch</option>
+                    <option value="centimeter to foot">Centimeter to Foot</option>
+                    <option value="meter to yard">Meter to Yard</option>
+                    <option value="kilometer to mile">Kilometer to Mile</option>
+                </select>
+
+                <button type="submit" id="convert-btn">Convert</button>
+            </form>
+
+            <p id="conversion-result"></p>
+
+            <script defer src="js/metric-converter.js"></script>
         </div>
     </div>
 

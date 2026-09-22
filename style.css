@@ -22,3 +22,28 @@
     margin-top: 15px;
     font-weight: bold;
 }
+#metric-converter {
+    margin-top: 20px;
+}
+
+#metric-form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 400px;
+}
+
+#metric-form input,
+#metric-form select {
+    padding: 8px;
+}
+
+#convert-btn {
+    padding: 10px;
+    cursor: pointer;
+}
+
+#conversion-result {
+    margin-top: 15px;
+    font-weight: bold;
+}
